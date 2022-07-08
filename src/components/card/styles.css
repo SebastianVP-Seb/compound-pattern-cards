@@ -1,0 +1,63 @@
+.card {
+    background-color: rgb(218, 218, 182);
+    padding: 1rem;
+    width: 20rem;
+    margin: 3rem;
+}
+
+.card .card_header {
+    color: blueviolet;
+}
+
+.card .card_image img {
+    max-width: 100%;
+}
+
+.card .card_description {
+    padding: 1rem;
+}
+
+.card .card_buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 2rem;
+}
+
+.card .card_buttons button {
+    cursor: pointer;
+    border: none;
+    width: 9rem;
+    border-radius: 30rem;
+    transition: all .5s;
+}
+
+.card .card_buttons button :hover {
+    background-color: aliceblue;
+    border: 4px solid hotpink;
+}
+
+.card .card_buttons button.is-secondary {
+    background-color: aqua;
+}
+
+.card .card_buttons button.is-primary {
+    background-color: blueviolet;
+}
+
+.button-collapsed {
+    cursor: pointer;
+    background-color: hotpink;
+    padding: .5rem;
+    color: black;
+    border-radius: 40rem;
+}
+
+.card_collapsed {
+    background-color: aquamarine;
+}
+
+.card_collapsed.is-active {
+    background-color: rgb(9, 53, 53);
+    display: none;
+}
