@@ -1,4 +1,4 @@
-import { createContext, ReactElement } from 'react';
+import { createContext } from 'react';
 import { configCard, propsCard } from './CardInterfaces';
 import './styles.css';
 

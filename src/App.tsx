@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import CompoundPattern from './Page/CompoundPattern';
@@ -7,7 +6,6 @@ import CompoundPattern from './Page/CompoundPattern';
 function App() {
 
   // init();
-
   return (
     <div className="App">
       <aside className="app_aside">
@@ -17,7 +15,6 @@ function App() {
         <h1>iAmSebastian Compound Pattern TypeScript</h1>
         <CompoundPattern />
       </main>
-
     </div>
   );
 }
